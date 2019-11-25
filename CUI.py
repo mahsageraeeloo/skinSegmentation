@@ -22,5 +22,5 @@ while end == 'y' or end == 'Y':
     result = model.predict([[blue, green, red]])
     resultStr = "Skin" if result == 1 else "Non-Skin"
     print('Result is ' + resultStr)
-    print('Do you want to continue? (Y/n)')
+    print('Do you want to continue? (Y/N)')
     end = input()
